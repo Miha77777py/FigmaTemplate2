@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+#logoheader {
+    text-decoration: none;
+    font-size: 26px;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+    margin-left: 215px;
+    margin-top: 24px;
+    display: inline-block;
+}
+
+#navigation ul li {
+    font-size: 14px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 1000;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    display: inline-block;
+}
+
+#navigation {
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+}
+
+#navigation ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-left: 93px;
+}
+
+#navigation ul li a {
+    text-decoration: none;
+}
+
+.web {
+    color: #2196F3
+}
+
+.studio {
+    color: #212121
+}
+
+.notfirst {
+    margin-left: 50px;
+}
+
+.notfirst a {
+    color: #212121;
+}
+
+#firstheader {
+    color: #2196F3;
+}
+
+#contacts {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 1000px;
+    top: 30px;
+}
+
+#contacts li {
+    display: inline-block;
+    font-size: 14px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 1000;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+#contacts li a {
+    text-decoration: none;
+}
+
+#firstheader a {
+    color: #2196F3;
+}
+
+#second a {
+    color: #757575;
+}
+
+#second {
+    margin-left: 50px;
+}
+
+#secondimg {
+    position: absolute;
+    left: 480px;
+    top: 51px;
+}
+
+#firstimg {
+    position: absolute;
+    left: 1030px;
+    top: 51px;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+}
