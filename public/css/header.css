@@ -21,6 +21,10 @@
     display: inline-block;
 }
 
+#navigation ul li:nth-child(n + 2) {
+    margin-left: 50px;
+}
+
 #navigation {
     display: inline-block;
     position: absolute;
@@ -46,15 +50,11 @@
     color: #212121
 }
 
-.notfirst {
-    margin-left: 50px;
-}
-
-.notfirst a {
+.notselected a {
     color: #212121;
 }
 
-#firstheader {
+#selected {
     color: #2196F3;
 }
 
