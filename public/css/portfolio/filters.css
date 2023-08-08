@@ -4,10 +4,18 @@
     margin-left: 475px;
 }
 
+#finger {
+    position: absolute;
+    top: 225px;
+    left: 530px;
+}
+
+
 main {
     padding-top: 94px;
     margin-top: 20px;
     border-top: 1px solid #ECECEC;
+    width: 1519px;
 }
 
 #filters ul li {
@@ -53,4 +61,8 @@ main {
         0px 2px 2px 0px rgba(0, 0, 0, 0.12), 
         0px 1px 2px 0px rgba(0, 0, 0, 0.08), 
         0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
+
+#filters {
+    margin-bottom: 50px;
 }
